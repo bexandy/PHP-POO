@@ -1,0 +1,41 @@
+/* Desarrolllado por Bexandy Rodríguez */
+
+body {margin-left: 0px; margin-top: opx; font-family: Arial;}
+
+#principal {width: 800px; font-size: 13px; }
+
+    #header {width: 800px; height: 100px; background-color: #A02828; color: #FFFFFF; float: left; }
+
+    #main {width: 800px; height: 100%; float: left;}
+
+        #menu {width: 800px; height: 25px; float: left;}
+            .boton {width: 120px; height: 25px;float: left; background-color: #404040;color: #FFFFFF;}
+            .url_boton {text-decoration: none; color: #FFFFFF; }
+            #buscador {width: 200px; height:25px;float: left; text-align:center;}
+
+        #content {width: 800px;float: left;}
+            #contenedor {width: 600px; float: left; }
+
+                #separador_post {width: 600px; height: 20px; float: left;}
+                #post{width: 600px; float: left; text-align: center;}
+                  #titulo_post {width: 600px; height: 20px;float: left;}
+                      #titulo {width: 400px; height: 20px; float:left;text-align: left; font-weight: bold;}
+                      #fecha {width: 200px; height: 20px; float:left;text-align: right;}
+                  #texto_post {width: 600px; float:left;text-align: left;}
+                  #separador_debajo_texto {width: 600px; height: 10px; float: left;}
+                  #debajo_post {width: 600px; height: 20px;float: left;}
+                      #leer_mas {width: 400px; height: 20px; float:left;text-align: left; }
+                      #comentarios {width: 200px; height: 20px; float:left;text-align: right;}
+                #div_entre_post {width: 600px;height: 5px; float: left; background-color: #434343}
+
+            #div_paginacion_post {width: 600px; height: 25px; float: left; text-align: center;}
+
+            #sidebar {width: 200px; float: left; text-align: center; }
+                #separador_widget {width: 200px; height: 20px; float: left;}
+                #widget {width: 200px; float: left; margin-left:15px;}
+                    .separador_lateral_widget {width: 15px; float: left;}
+                    #caja_widget {width: 170px; float: left;}
+                    #titulo_widget {width: 170px; height: 20px; float: left; text-align: center; background-color:#333333 ; color: #ffffff}
+                    #contenido_widget {width: 170px; height: 20px; float: left; background-color: #f0f0f0; text-align: left;}
+
+            #footer {width: 800px; height: 20px; float: left; text-align: center;}
