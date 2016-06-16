@@ -43,7 +43,7 @@ class Consulta {
 		$mysqli->close();
 		echo "<script type='text/javascript' >
 		alert('Gracias por escribir en nuestro libro de visitas');
-		window.location='formulario.php';
+		window.location='index.php';
 	</script>";
 }
 
@@ -73,7 +73,7 @@ public function editDatos($nombre,$texto,$id)
 
 	echo "<script type='text/javascript' >
 	alert('El Registro se ha Modificado Correctamente');
-	window.location='formulario.php';
+	window.location='index.php';
 </script>";
 }
 
@@ -86,7 +86,7 @@ public function eliminarDatos($id)
 
 	echo "<script type='text/javascript' >
 	alert('El Registro se ha Eliminado Correctamente');
-	window.location='formulario.php';
+	window.location='index.php';
 </script>";
 
 }

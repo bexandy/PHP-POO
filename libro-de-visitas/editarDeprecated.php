@@ -54,7 +54,7 @@ $reg = $tra->get_Visitas_por_Id($_GET["id"]);
               <hr />
               <input type="hidden" name="grabar" value="si">
               <input type="hidden" name="id" value="<?php  echo $_GET["id"]; ?>">
-              <button type="button" value="Volver" title="Volver" onclick="window.location='formularioDeprecated.php';" >Volver</button>
+              <button type="button" value="Volver" title="Volver" onclick="window.location='index.php';" >Volver</button>
               &nbsp;&nbsp;||&nbsp;&nbsp;
               <button type="button" value="Editar" title="Editar" onclick="validar();" >Editar</button>
             </td>

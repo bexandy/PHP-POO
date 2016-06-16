@@ -30,25 +30,6 @@ body {margin-left: 0px; margin-top: opx; font-family: Arial;}
 
             #div_paginacion_post {width: 600px; height: 25px; float: left; text-align: center;}
 
-
-/*************************** estilos para NOTICIAS.PHP ***************************************************/
-
-#div_post_top {width: 600px; height: 15px; float: left;}
-#div_post_contenedor {width: 600px; float: left;}
-    #div_post_titulo {width: 600px; height: 20px; float: left;}
-        #div_post_titulo_texto  {width: 400px; float: left; height: 20px; text-align: left; font-weight: bold; font-size: 18px; }
-        #div_post_titulo_fecha {width: 200px; float: left; height: 20px; text-align: right;}
-    #div_post_separador_debajo_titulo {width: 600px; float: left; height: 5px; background-color: #B4A6A6;}
-    #div_post_contenedor_detalle {width: 600px; float: left; }
-        .div_separador_detalle_post {width: 25px; float: left; }
-        #div_detalle_post {width: 550px; float: left; margin-left: 25px; text-align: left;}
-            #div_contenedor_categoria_y_descarga {width: 550px; float: left; height: 20px; }
-                #div_categoria_post {width: 275px; float: left; height: 48px; text-align: left; }
-                #div_descarga_post {width: 275px; float: left; height: 48px; text-align: right;}
-            #div_form_comentarios {width: 550px;float: left; text-align: left; margin-top: 25px;}
-            #div_comentarios_post {width: 550px;float: left; text-align: left; }
-/*************************** fin NOTICIAS.PHP *****************************************************/
-
             #sidebar {width: 200px; float: left; text-align: center; }
                 #separador_widget {width: 200px; height: 20px; float: left;}
                 #widget {width: 200px; float: left; margin-left:15px;}

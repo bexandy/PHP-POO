@@ -29,8 +29,6 @@ class BlogBDD {
 	private $cat = array();
 
 	private $noticias = array();
-	private $post = array();
-	private $comentarios = array();
 
 // Método de Consulta a la BDD, devuelve todos los registros de la tabla en un arreglo asociativo
 	public function get_categorias() {
@@ -67,16 +65,6 @@ public function total_comentarios($id_noticia)
 		$total = $reg["cuantos"];
 	}
 	return $total;
-}
-
-public function get_post_por_id()
-{
-	$sql = "select * from noticias where id_noticia=".$_GET["id"];
-	$res = mysql_query($sql,Conectar::con());
-	if ($reg=mysql_fetch_array($res)) {
-		$this->post[] = $reg;
-	}
-	return $this->post;
 }
 
 }

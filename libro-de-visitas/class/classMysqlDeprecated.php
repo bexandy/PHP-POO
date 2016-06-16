@@ -45,7 +45,7 @@ class Trabajo {
 		$res = mysql_query($sql,Conectar::con());
 		echo "<script type='text/javascript' >
 		alert('Gracias por escribir en nuestro libro de visitas');
-		window.location='formularioDeprecated.php';
+		window.location='index.php';
 	</script>";
 }
 
@@ -79,7 +79,7 @@ public function edit_Vistas($nom,$texto,$id)
 
 	echo "<script type='text/javascript' >
 	alert('Registro Modificado Correctamente');
-	window.location='formularioDeprecated.php';
+	window.location='index.php';
 </script>";
 }
 
@@ -90,7 +90,7 @@ public function eliminar_Visitas($id)	{
 	$res = mysql_query($sql,Conectar::con());
 	echo "<script type='text/javascript' >
 	alert('Registro Eliminado Correctamente');
-	window.location='formularioDeprecated.php';
+	window.location='index.php';
 </script>";
 }
 }

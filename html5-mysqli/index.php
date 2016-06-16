@@ -32,7 +32,7 @@ $blogbdd = new BlogBDD;
 
           <div id="buscador">
             <form name="buscar">
-              <input type="text" name="s" style="width: 140px;">
+              <input type="text" name="s" style="width: 150px;">
               <a href=""><img src="images/search32.png" alt="Buscar" style="width: 20px; height: 20px;"></a>
             </form>
           </div>
