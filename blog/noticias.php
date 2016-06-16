@@ -115,7 +115,7 @@ $datos = $blogbdd->get_post_por_id();
                   for ($i=0; $i < sizeof($categoria); $i++) {
                    ?>
                    <div id="contenido_widget">
-                     <a href="http://php-poo.local/?cat=<?php echo $categoria[$i]["id_categoria"]; ?>" title="<?php echo $categoria[$i]["categoria"]; ?>" ><?php echo $categoria[$i]["categoria"]; ?></a>
+                     <a href="http://php-poo.local/blog/?cat=<?php echo $categoria[$i]["id_categoria"]; ?>" title="<?php echo $categoria[$i]["categoria"]; ?>" ><?php echo $categoria[$i]["categoria"]; ?></a>
                    </div>
                    <?php } ?>
                  </div>
