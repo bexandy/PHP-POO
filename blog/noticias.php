@@ -3,18 +3,16 @@ require_once 'class/classConexionBlog.php';
 $blogbdd = new BlogBDD;
 $datos = $blogbdd->get_post_por_id();
 ?>
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="author"  content="Bexandy Rodríguez">
-  <meta name="description" content="Blog Personal realizado con PHP">
-  <meta name="keywords" content="Blog Personal,PHP,Programación Orientada a Objetos">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>..:: <?php echo $datos[0]["titulo"]; ?> ::..</title>
+
   <link rel="stylesheet" type="text/css" href="css/estilos.css" >
+  <script language="javascript" type="text/javascript" src="js/funciones.js" ></script>
 </head>
+
 <body>
   <center>
     <div id="principal">
@@ -66,17 +64,19 @@ $datos = $blogbdd->get_post_por_id();
 
                   <div id="div_form_comentarios">
                     <hr>
-                    <form name="form" action="" method="post" >
-                      Nombre:<input type="text" name="nom" >
+                    <form name="form" action="procesaComentarios.php" method="post" >
+                      <input type="text" name="nom" > Nombre
                       <br>
-                      Email:<input type="text" name="correo" >(no será publicado)
+                      <input type="text" name="correo" > Email (no será publicado)
                       <br>
-                      Sitio Web:<input type="text" name="web" >
+                      <input type="text" name="web" > Sitio Web
                       <br>
-                      Mensaje:<textarea name="mensaje" cols="40" rows="10"></textarea>
+                      <textarea name="mensaje" cols="40" rows="10"></textarea> Mensaje                      <br>
                       <br>
-                      <br>
-                      <button type="button" value="Comentar" title="Comentar" onclick="">Comentar</button>
+                      <div id="valor"></div>
+                      <input type="hidden" name="url" >
+                      <input type="hidden" name="id_noticia" value="<?php echo $_GET["id"]; ?>">
+                      <button type="button" value="Comentar" title="Comentar" onclick="valida_comentarios();">Comentar</button>
                     </form>
                   </div>
 
@@ -84,12 +84,19 @@ $datos = $blogbdd->get_post_por_id();
                     <hr>
                     <strong>Comentarios:</strong>
                     <ul>
-                      <?php for ($i=0; $i < 5; $i++) {
+                      <?php
+                      $com = $blogbdd->get_comentarios($_GET["id"]);
+                      for ($i=0; $i < sizeof($com); $i++) {
+                        if (empty($com[$i]["web"])) {
+                          $nombre = $com[$i]["nombre"];
+                        } else {
+                          $nombre = "<a href='http://".$com[$i]["web"]."' target='blank'>".$com[$i]["nombre"]."</a>";
+                        }
                         ?>
                         <li>
-                          Claudio dice:
+                          <?php echo $nombre; ?> dice:
                           <br>
-                          hola me gustó este post
+                          <?php echo $com[$i]["texto"]; ?>
                           <hr>
                         </li>
                         <?php } ?>
@@ -107,6 +114,7 @@ $datos = $blogbdd->get_post_por_id();
             <div id="sidebar">
 
               <div id="separador_widget"></div>
+
               <div id="widget">
                 <div id="caja_widget">
                   <div id="titulo_widget">Categorías</div>
@@ -123,17 +131,25 @@ $datos = $blogbdd->get_post_por_id();
                </div>
 
                <div id="separador_widget"></div>
+
                <div id="widget">
                 <div id="caja_widget">
-                  <div id="titulo_widget">Últimas Entradas</div>
-                  <?php for ($i=0; $i < 5; $i++) {
+                  <div id="titulo_widget">Últimos Posts</div>
+                  <?php
+                  $not = $blogbdd->get_ultimos_5_posts();
+                  for ($i=0; $i < count($not); $i++) {
                    ?>
-                   <div id="contenido_widget">PHP</div>
+                   <div id="contenido_widget">
+                     <?php $texto = str_replace(" ","-",$not[$i]["titulo"]); ?>
+                     <a href="<?php echo $texto."-p".$not[$i]["id_noticia"].".html"; ?>"
+                     title="<?php echo $not[$i]['titulo']; ?>" >
+                       <?php echo Conectar::corta_palabra($not[$i]["titulo"],26); ?> ...
+                     </a>
+                   </div>
                    <?php } ?>
                  </div>
                  <div class="separador_lateral_widget"></div>
                </div>
-
              </div>
 
              <div id="footer"></div>

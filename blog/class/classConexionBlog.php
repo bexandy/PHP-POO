@@ -31,6 +31,7 @@ class BlogBDD {
 	private $noticias = array();
 	private $post = array();
 	private $comentarios = array();
+	private $ultimos_posts = array();
 
 // Método de Consulta a la BDD, devuelve todos los registros de la tabla en un arreglo asociativo
 	public function get_categorias() {
@@ -59,24 +60,58 @@ class BlogBDD {
 		return $this->noticias;
 	}
 
-public function total_comentarios($id_noticia)
-{
-	$sql = "select count(*) as cuantos from comentarios where id_noticia=$id_noticia";
-	$res = mysql_query($sql,Conectar::con());
-	if ($reg=mysql_fetch_array($res)) {
-		$total = $reg["cuantos"];
+	public function total_comentarios($id_noticia)
+	{
+		$sql = "select count(*) as cuantos from comentarios where id_noticia=$id_noticia";
+		$res = mysql_query($sql,Conectar::con());
+		if ($reg=mysql_fetch_array($res)) {
+			$total = $reg["cuantos"];
+		}
+		return $total;
 	}
-	return $total;
-}
 
-public function get_post_por_id()
-{
-	$sql = "select * from noticias where id_noticia=".$_GET["id"];
-	$res = mysql_query($sql,Conectar::con());
-	if ($reg=mysql_fetch_array($res)) {
-		$this->post[] = $reg;
+	public function get_post_por_id()
+	{
+		$sql = "select * from noticias where id_noticia=".$_GET["id"];
+		$res = mysql_query($sql,Conectar::con());
+		if ($reg=mysql_fetch_array($res)) {
+			$this->post[] = $reg;
+		}
+		return $this->post;
 	}
-	return $this->post;
+
+	public function insertar_comentarios()
+	{
+
+		$sql = "insert into comentarios values (null,'".strip_tags($_POST["nom"])."','".strip_tags($_POST["correo"])."','".strip_tags($_POST["web"])."','".strip_tags($_POST["mensaje"])."',now(),'".strip_tags($_POST["id_noticia"])."')";
+
+		$res = mysql_query($sql,Conectar::con());
+		echo "
+		<script type='text/javascript'>
+			alert('El comentario ha sido ingresado correctamente. Gracias por escribir a mi web');
+			window.location='".$_POST["url"]."';
+		</script>";
+	}
+
+	public function get_comentarios($id)
+	{
+		$sql = "select * from comentarios where id_noticia=$id order by id_comentario desc";
+		$res = mysql_query($sql,Conectar::con());
+
+		while ($reg = mysql_fetch_assoc($res)) {
+			$this->comentarios[] = $reg;
+		}
+		return $this->comentarios;
+	}
+
+public function get_ultimos_5_posts()
+{
+	$sql = "select * from noticias order by id_noticia desc limit 5";
+	$res = mysql_query($sql,Conectar::con());
+	while ($reg = mysql_fetch_assoc($res)) {
+		$this->ultimos_posts[]=$reg;
+	}
+	return $this->ultimos_posts;
 }
 
 }

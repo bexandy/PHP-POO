@@ -2,14 +2,10 @@
 require_once 'class/classConexionBlog.php';
 $blogbdd = new BlogBDD;
 ?>
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="author"  content="Bexandy Rodríguez">
-  <meta name="description" content="Blog Personal realizado con PHP">
-  <meta name="keywords" content="Blog Personal,PHP,Programación Orientada a Objetos">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   <title>..:: Blog de Bexandy Rodríguez ::..</title>
   <link rel="stylesheet" type="text/css" href="css/estilos.css" >
@@ -18,11 +14,11 @@ $blogbdd = new BlogBDD;
   <center>
     <div id="principal">
       <div id="header">
-      <div style="float:left; text-align: left;">
-        <img src="images/Bexandy-Rodriguez.jpg" height="100px" alt="Logo">
-      </div>
+        <div style="float:left; text-align: left;">
+          <img src="images/Bexandy-Rodriguez.jpg" height="100px" alt="Logo">
+        </div>
 
-      <h1>..:: Blog de Bexandy Rodríguez ::..</h1>
+        <h1>..:: Blog de Bexandy Rodríguez ::..</h1>
 
       </div>
       <div id="main">
@@ -129,26 +125,42 @@ $blogbdd = new BlogBDD;
                <div class="separador_lateral_widget"></div>
              </div>
 
-             <div id="separador_widget"></div>
-             <div id="widget">
+
+            <div id="separador_widget"></div>
+
+             <div>
+              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=170&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=314376128644434" width="170" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </div>
+
+            <div id="separador_widget"></div>
+
+            <div id="widget">
               <div id="caja_widget">
-                <div id="titulo_widget">Últimas Entradas</div>
-                <?php for ($i=0; $i < 5; $i++) {
+                <div id="titulo_widget">Últimos Posts</div>
+                <?php
+                $not = $blogbdd->get_ultimos_5_posts();
+                for ($i=0; $i < count($not); $i++) {
                  ?>
-                 <div id="contenido_widget">PHP</div>
+                 <div id="contenido_widget">
+                   <?php $texto = str_replace(" ","-",$not[$i]["titulo"]); ?>
+                   <a href="<?php echo $texto."-p".$not[$i]["id_noticia"].".html"; ?>"
+                     title="<?php echo $not[$i]['titulo']; ?>" >
+                     <?php echo Conectar::corta_palabra($not[$i]["titulo"],26); ?> ...
+                   </a>
+                 </div>
                  <?php } ?>
                </div>
                <div class="separador_lateral_widget"></div>
              </div>
-
            </div>
-
-           <div id="footer"></div>
-           <div id="footer"><hr>&copy; Desarrollado por Bexandy Rodríguez 2015 - <?php echo date("Y"); ?></div>
          </div>
 
+         <div id="footer"></div>
+         <div id="footer"><hr>&copy; Desarrollado por Bexandy Rodríguez 2015 - <?php echo date("Y"); ?></div>
        </div>
-     </center>
-   </body>
-   </html>
+
+     </div>
+   </center>
+ </body>
+ </html>
 

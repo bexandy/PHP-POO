@@ -44,3 +44,6 @@ echo "<br>";
 echo "el metodo del papá es: ";
 echo $suma->imprimirPadre();
 ?>
+
+
+
