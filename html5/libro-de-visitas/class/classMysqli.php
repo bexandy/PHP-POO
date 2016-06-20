@@ -28,7 +28,7 @@ class Consulta {
 		$query = "SELECT * FROM libro_de_visitas ORDER BY id DESC";
 		$resultado = $mysqli->query($query);
 		while ($rows = $resultado->fetch_assoc()) {
-			# code...
+
 			$this->datos[] = $rows;
 		}
 		$mysqli->close();
