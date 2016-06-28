@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+      "follow_symlinks": true,
+			"path": "."
+		}
+	],
+  "settings":{
+    "xdebug":{
+      "url":"http://php-poo.local/subir-fotos",
+      "max_depth": 3,
+      "break_on_start": true,
+    }
+  }
+}

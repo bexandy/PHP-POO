@@ -83,6 +83,10 @@ require_once("class/class.php");
       <button type="button" value="Exportar a Excel" title="Exportar a Excel" onclick="window.location='excel.php';">Exportar a Excel</button>
       &nbsp;&nbsp;||&nbsp;&nbsp;
       <button type="button" value="Exportar a TXT" title="Exportar a TXT" onclick="window.location='txt.php';">Exportar a TXT</button>
+      &nbsp;&nbsp;||&nbsp;&nbsp;
+      <button type="button" value="Exportar a PDF" title="Exportar a PDF" onclick="window.location='pdf.php';">ExportarPDF</button>
+      &nbsp;&nbsp;||&nbsp;&nbsp;
+      <button type="button" value="Ejemplo de PDF con HTML" title="Ejemplo de PDF con HTML" onclick="window.location='pdf_html.php';">Ejemplo de PDF con HTML</button>
     </td>
   </tr>
 </table>

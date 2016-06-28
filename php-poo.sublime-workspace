@@ -1,0 +1,1352 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rss",
+				"rss+xml"
+			],
+			[
+				"this",
+				"$this〔variable〕"
+			],
+			[
+				"sa",
+				"save	(resize.php)"
+			],
+			[
+				"thum",
+				"$thumb〔variable〕"
+			],
+			[
+				"jp",
+				"jpeg_quality	(resize.php)"
+			],
+			[
+				"requi",
+				"require_once〔keyword〕"
+			],
+			[
+				"sess",
+				"session_start〔function〕"
+			],
+			[
+				"isset",
+				"isset〔function〕"
+			],
+			[
+				"input",
+				"inputh	input - hidden"
+			],
+			[
+				"Vie",
+				"ViewModel"
+			],
+			[
+				"require",
+				"require_once〔function〕"
+			],
+			[
+				"option",
+				"$options〔variable〕"
+			],
+			[
+				"ez",
+				"ezTable〔function〕"
+			],
+			[
+				"pdf",
+				"$pdf〔variable〕"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"size",
+				"sizeof〔function〕"
+			],
+			[
+				"datacreator",
+				"$datacreator〔variable〕"
+			],
+			[
+				"lo",
+				"load_html〔function〕"
+			],
+			[
+				"use",
+				"use〔keyword〕"
+			],
+			[
+				"domp",
+				"$dompdf〔variable〕"
+			],
+			[
+				"require_on",
+				"require_once	(index.php)"
+			],
+			[
+				"nombre",
+				"$nombreArchivo〔variable〕"
+			],
+			[
+				"file",
+				"file〔function〕"
+			],
+			[
+				"imp",
+				"implode〔function〕"
+			],
+			[
+				"zip",
+				"zipfile"
+			],
+			[
+				"requir",
+				"require_once〔function〕"
+			],
+			[
+				"fput",
+				"fputs〔function〕"
+			],
+			[
+				"nom",
+				"$nombreArchivo〔variable〕"
+			],
+			[
+				"fop",
+				"fopen〔function〕"
+			],
+			[
+				"but",
+				"button"
+			],
+			[
+				"html4",
+				"html4tr	html4tr"
+			],
+			[
+				"html",
+				"html	html"
+			],
+			[
+				"utf",
+				"utf8_encode〔function〕"
+			],
+			[
+				"butt",
+				"button"
+			],
+			[
+				"reg",
+				"$reg〔variable〕"
+			],
+			[
+				"font",
+				"font-size: 〔property〕"
+			],
+			[
+				"bol",
+				"bold〔value〕"
+			],
+			[
+				"back",
+				"background-color: 〔property〕"
+			],
+			[
+				"td",
+				"td	Tag"
+			],
+			[
+				"return",
+				"return〔keyword〕"
+			],
+			[
+				"mysql_fe",
+				"mysql_fetch_assoc〔function〕"
+			],
+			[
+				"inpu",
+				"inputd	input - date"
+			],
+			[
+				"loca",
+				"location	(index.php)"
+			],
+			[
+				"ter",
+				"$termino〔variable〕"
+			],
+			[
+				"des",
+				"$des〔variable〕"
+			],
+			[
+				"titu",
+				"$titulo〔variable〕"
+			],
+			[
+				"_Pos",
+				"$_POST〔variable〕"
+			],
+			[
+				"ob",
+				"obj"
+			],
+			[
+				"_",
+				"$_POST〔variable〕"
+			],
+			[
+				"if",
+				"if	PHP: if statement"
+			],
+			[
+				"class",
+				"class.php	(index.php)"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"bu",
+				"button"
+			],
+			[
+				"title",
+				"title	Attr"
+			],
+			[
+				"tra",
+				"$tra〔variable〕"
+			],
+			[
+				"resultado",
+				"$resultado〔variable〕"
+			],
+			[
+				"clas",
+				"class	PHP: class declaration"
+			],
+			[
+				"datos",
+				"$datos〔variable〕"
+			],
+			[
+				"mysq",
+				"$mysqli〔variable〕"
+			],
+			[
+				"my",
+				"$mysqli〔variable〕"
+			],
+			[
+				"session_",
+				"session_reg_usuario	(home.php)"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"windo",
+				"window.location='index.php"
+			],
+			[
+				"echo",
+				"echo	echo \"…\""
+			],
+			[
+				"_G",
+				"$_GET〔variable〕"
+			],
+			[
+				"print_r",
+				"print_r($_POST	(index.php)"
+			],
+			[
+				"obj",
+				"$obj〔variable〕"
+			],
+			[
+				"query",
+				"$query〔variable〕"
+			],
+			[
+				"header",
+				"header〔function〕"
+			],
+			[
+				"cue",
+				"$cuerpo〔variable〕"
+			],
+			[
+				"asu",
+				"$asunto〔variable〕"
+			],
+			[
+				"sheader",
+				"$sheader〔variable〕"
+			],
+			[
+				"she",
+				"$sheader〔variable〕"
+			],
+			[
+				"remitente",
+				"$remitente〔variable〕"
+			],
+			[
+				"hora",
+				"$hora〔variable〕"
+			],
+			[
+				"fecha",
+				"$fecha〔variable〕"
+			],
+			[
+				"quer",
+				"$query〔variable〕"
+			],
+			[
+				"date",
+				"date〔function〕"
+			],
+			[
+				"wind",
+				"window.location='index.php"
+			],
+			[
+				"titl",
+				"title	(home.php)"
+			],
+			[
+				"value",
+				"value	(funciones.js)"
+			],
+			[
+				"ale",
+				"alert〔function〕"
+			],
+			[
+				"onC",
+				"onclick	Attr"
+			],
+			[
+				"pa",
+				"password"
+			],
+			[
+				"no",
+				"nom"
+			],
+			[
+				"mysq_fe",
+				"mysql_fetch_assoc〔function〕"
+			],
+			[
+				"scri",
+				"script	<script>"
+			],
+			[
+				"_s",
+				"$_SESSION〔variable〕"
+			],
+			[
+				"_S",
+				"$_SESSION〔variable〕"
+			],
+			[
+				"res",
+				"$res〔variable〕"
+			],
+			[
+				"window",
+				"window.location	(classConexionBlog.php)"
+			],
+			[
+				"scrip",
+				"script	<script>"
+			],
+			[
+				"mysql_num",
+				"mysql_num_rows"
+			],
+			[
+				"pass",
+				"$pass_php〔variable〕"
+			],
+			[
+				"pass_js",
+				"$pass_js〔variable〕"
+			],
+			[
+				"isse",
+				"isset〔function〕"
+			],
+			[
+				"in",
+				"ins	Tag"
+			],
+			[
+				"action",
+				"action	Attr"
+			],
+			[
+				"valida",
+				"validar_logueo	(funciones.js)"
+			],
+			[
+				"fal",
+				"false〔keyword〕"
+			],
+			[
+				"limpiar_loge",
+				"limpiar_logeo〔function〕"
+			],
+			[
+				"va",
+				"value	Attr"
+			],
+			[
+				"ba",
+				"background-color: 〔property〕"
+			],
+			[
+				"con",
+				"con"
+			],
+			[
+				"mysql_c",
+				"mysql_connect〔function〕"
+			],
+			[
+				"sql",
+				"$sql〔variable〕"
+			],
+			[
+				"mysql_que",
+				"mysql_query〔function〕"
+			],
+			[
+				"printr",
+				"print_r〔function〕"
+			],
+			[
+				"mysql",
+				"mysql_fetch_assoc"
+			],
+			[
+				"empty",
+				"empty〔function〕"
+			],
+			[
+				"si",
+				"sizeof"
+			],
+			[
+				"da",
+				"datos"
+			],
+			[
+				"_PO",
+				"$_POST〔variable〕"
+			],
+			[
+				"scr",
+				"script	<script>"
+			],
+			[
+				"blo",
+				"blogbdd"
+			],
+			[
+				"blogB",
+				"$blogbdd〔variable〕"
+			],
+			[
+				"cla",
+				"classConexionBlog.php	(noticias.php)"
+			],
+			[
+				"validar",
+				"validarEmail〔function〕"
+			],
+			[
+				"php",
+				"php	<?php … ?>"
+			],
+			[
+				"ar",
+				"array	PHP: Initialise a variable with an array"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"text",
+				"textarea	<textarea>"
+			],
+			[
+				"form",
+				"form"
+			],
+			[
+				"div_po",
+				"div_post_contenedor"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"div_post_titulo",
+				"div_post_titulo_fecha	(estilos.css)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "sindicacion/index.php",
+			"settings":
+			{
+				"buffer_size": 432,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sindicacion/rss.php",
+			"settings":
+			{
+				"buffer_size": 1154,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sindicacion/prueba.xml",
+			"settings":
+			{
+				"buffer_size": 629,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 376.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"Snippet: html",
+				"Snippet: html4tr"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"php doc",
+				"phpfmt: generate PHPDoc block"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"php",
+				"PHP Coding Standards Fixer: Fix this file (PHP-CS-Fixer)"
+			],
+			[
+				"php-cs",
+				"PHP Coding Standards Fixer: Fix this file (PHP-CS-Fixer)"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"__construct",
+				"Snippet: function __construct"
+			],
+			[
+				"func",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"class",
+				"Snippet: PHP: class declaration"
+			],
+			[
+				"function",
+				"Snippet: function …"
+			],
+			[
+				"ph",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"rub",
+				"Snippet: #!/usr/bin/env ruby -wKU"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"jso",
+				"Pretty JSON: Validate"
+			],
+			[
+				"file",
+				"ANF: New File"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"termi",
+				"Terminal: Open in project folder"
+			],
+			[
+				"PACK",
+				"Package Control: Install Package"
+			],
+			[
+				"glu",
+				"Glue - Launch"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"view",
+				"View: Toggle Menu"
+			],
+			[
+				"",
+				"Set Syntax: PHP"
+			]
+		],
+		"width": 656.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/php-poo"
+	],
+	"file_history":
+	[
+		"/home/brodriguez/.config/sublime-text-3/Packages/User/MySnippets.sublime-settings",
+		"/var/www/php-poo/subir-fotos/class/class.php",
+		"/var/www/php-poo/subir-fotos/class/resize.php",
+		"/var/www/php-poo/subir-fotos/index.php",
+		"/var/www/php-poo/check.php",
+		"/home/brodriguez/.config/sublime-text-3/Packages/User/Xdebug.sublime-settings",
+		"/home/brodriguez/.config/sublime-text-3/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/var/www/php-poo/php-poo.sublime-project",
+		"/var/www/php-poo/subir-fotos/prueba.php",
+		"/var/www/php-poo/subir-fotos/class/resize_old.php",
+		"/var/www/php-poo/version.php",
+		"/var/www/zf2/module/Application/view/application/index/hola.phtml",
+		"/var/www/zf2/module/Application/src/Application/Controller/IndexController.php",
+		"/var/www/php-poo/reportes/index.php",
+		"/var/www/php-poo/reportes/pdf.php",
+		"/var/www/php-poo/reportes/pdf_html.php",
+		"/var/www/php-poo/reportes/class/class.php",
+		"/var/www/php-poo/reportes/pdf-php/src/Cpdf.php",
+		"/var/www/php-poo/reportes/pdf-php/src/Cezpdf.php",
+		"/var/www/php-poo/reportes/dompdf/autoload.inc.php",
+		"/var/www/php-poo/reportes/class/zipfile.php",
+		"/var/www/php-poo/reportes/excel.php",
+		"/var/www/php-poo/reportes/txt.php",
+		"/var/www/php-poo/reportes/class/zipfile2.php",
+		"/var/www/php-poo/blog/index.php",
+		"/var/www/php-poo/registro-usuario/index.php",
+		"/var/www/php-poo/prueba.html",
+		"/home/brodriguez/.config/sublime-text-3/Packages/My Snippets/MySnippets.sublime-settings",
+		"/home/brodriguez/.config/sublime-text-3/Packages/User/html4tr.sublime-snippet",
+		"/var/www/php-poo/stored-procedure/index.php",
+		"/var/www/php-poo/stored-procedure/js/calendar-setup.js",
+		"/var/www/php-poo/stored-procedure/js/calendar.js",
+		"/var/www/php-poo/stored-procedure/crear_evento.php",
+		"/var/www/php-poo/stored-procedure/js/funciones.js",
+		"/var/www/php-poo/stored-procedure/class/class.php",
+		"/var/www/php-poo/stored-procedure/ejemplo.php",
+		"/var/www/php-poo/stored-procedure/js/calendar-es.js",
+		"/var/www/php-poo/libro-de-visitas/editarDeprecated.php",
+		"/var/www/php-poo/html5/libro-de-visitas/class/classMysqli.php",
+		"/var/www/php-poo/html5/blog/class/classConexionBlog.php",
+		"/var/www/php-poo/registro-usuario/home.php",
+		"/var/www/php-poo/registro-usuario/registro.php",
+		"/var/www/php-poo/registro-usuario/verificacion.php",
+		"/home/brodriguez/Documentos/datos-hostinger-bexandy.16mb.com",
+		"/var/www/php-poo/registro-usuario/salir.php",
+		"/var/www/php-poo/registro-usuario/js/funciones.js",
+		"/var/www/php-poo/registro-usuario/class/class.php",
+		"/var/www/php-poo/blog/js/funciones.js",
+		"/var/www/php-poo/registro-usuario/css/class.php",
+		"/var/www/php-poo/blog/class/classConexionBlog.php",
+		"/var/www/php-poo/blog/noticias.php",
+		"/var/www/php-poo/blog/procesaComentarios.php",
+		"/var/www/php-poo/registro-usuario/js/md5.js",
+		"/var/www/php-poo/css/class.php",
+		"/var/www/php-poo/blog/.htaccess",
+		"/var/www/php-poo/blog/menu.php",
+		"/var/www/php-poo/css/estilos.css",
+		"/var/www/php-poo/class/classConexionBlog.php",
+		"/var/www/php-poo/index.php",
+		"/var/www/php-poo/noticias.php",
+		"/var/www/php-poo/menu.php",
+		"/var/www/php-poo/libro-de-visitas/ingresarDeprecated.php",
+		"/var/www/php-poo/libro-de-visitas/eliminarDeprecated.php",
+		"/var/www/php-poo/libro-de-visitas/class/classMysqlDeprecated.php",
+		"/var/www/php-poo/html5-mysqli/libro-de-visitas/editar.php",
+		"/var/www/php-poo/html5-mysqli/libro-de-visitas/class/classMysqli.php",
+		"/var/www/php-poo/html5-mysqli/formulario.php",
+		"/var/www/php-poo/html5-mysqli/editar.php",
+		"/var/www/php-poo/.htaccess",
+		"/var/www/php-poo/.htacces",
+		"/home/brodriguez/.config/sublime-text-3/Packages/User/phpfmt.sublime-settings",
+		"/home/brodriguez/.config/sublime-text-3/Packages/phpfmt/phpfmt.sublime-settings",
+		"/var/www/php-poo/editar.php",
+		"/var/www/php-poo/js/funciones.js",
+		"/var/www/php-poo/eliminar.php",
+		"/var/www/php-poo/formulario.php",
+		"/var/www/php-poo/prueba.php",
+		"/var/www/php-poo/class/classMysqli.php",
+		"/var/www/php-poo/formularioDeprecated.php",
+		"/var/www/php-poo/eliminarDeprecated.php",
+		"/var/www/php-poo/class/classMysqlDeprecated.php",
+		"/var/www/php-poo/editarDeprecated.php",
+		"/home/brodriguez/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/var/www/php-poo/ingresarDeprecated.php",
+		"/var/www/php-poo/ingresar.php",
+		"/home/brodriguez/public_html/bexandy.github.io/about.md",
+		"/home/brodriguez/public_html/bexandy.github.io/_config.yml",
+		"/home/brodriguez/public_html/bexandy.github.io/_layouts/default.html",
+		"/home/brodriguez/public_html/bexandy.github.io/_sass/components/side-by-side.sass",
+		"/home/brodriguez/public_html/bexandy.github.io/_sass/pages/tags.sass",
+		"/home/brodriguez/public_html/bexandy.github.io/_sass/pages/post.sass",
+		"/home/brodriguez/public_html/bexandy.github.io/_sass/pages/page.sass",
+		"/home/brodriguez/public_html/bexandy.github.io/_sass/base/syntax.sass",
+		"/home/brodriguez/public_html/indigo/_config.yml",
+		"/home/brodriguez/public_html/MySiteRails/app/views/destinations/edit.html.erb",
+		"/home/brodriguez/public_html/MySiteRails/app/views/messages/new.html.erb",
+		"/home/brodriguez/public_html/MySiteRails/config/routes.rb",
+		"/home/brodriguez/public_html/MySiteRails/app/controllers/destinations_controller.rb",
+		"/home/brodriguez/public_html/MySiteRails/app/views/destinations/show.html.erb",
+		"/home/brodriguez/public_html/MySiteRails/app/views/tags/index.html.erb",
+		"/home/brodriguez/public_html/MySiteRails/app/views/tags/show.html.erb",
+		"/home/brodriguez/public_html/MySiteRails/app/controllers/tags_controller.rb",
+		"/home/brodriguez/public_html/MySiteRails/app/controllers/pages_controller.rb",
+		"/home/brodriguez/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/brodriguez/public_html/MySiteRails/app/views/tags/SHOW.HTML.ERB",
+		"/home/brodriguez/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/brodriguez/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/brodriguez/public_html/MySiteRails/vendor/bundle/ruby/2.1.0/gems/sqlite3-1.3.11/ext/sqlite3/.RUBYARCHDIR.-.sqlite3.time",
+		"/home/brodriguez/public_html/MySiteRails/app/models/destination.rb",
+		"/home/brodriguez/public_html/MySiteRails/app/models/tag.rb",
+		"/home/brodriguez/public_html/MySiteRails/app/controllers/messages_controller.rb",
+		"/home/brodriguez/public_html/MySiteRails/app/controllers/application_controller.rb",
+		"/home/brodriguez/public_html/MySiteRails/db/seeds.rb",
+		"/home/brodriguez/public_html/MySiteRails/app/assets/stylesheets/tags.scss",
+		"/home/brodriguez/public_html/MySiteRails/db/migrate/20160604133524_create_tags.rb",
+		"/home/brodriguez/public_html/MySiteRails/app/assets/stylesheets/application.css",
+		"/home/brodriguez/public_html/MySiteRails/db/migrate/20160604133742_create_destinations.rb",
+		"/home/brodriguez/public_html/MySiteRails/app/models/message.rb",
+		"/home/brodriguez/public_html/MySiteRails/app/views/messages/index.html.erb",
+		"/home/brodriguez/public_html/MySiteRails/app/assets/stylesheets/messages.scss",
+		"/home/brodriguez/public_html/MySiteRails/app/assets/stylesheets/pages.scss",
+		"/home/brodriguez/public_html/MySiteRails/app/views/pages/home.html.erb",
+		"/home/brodriguez/.config/sublime-text-3/Packages/User/HTML (Rails).sublime-settings",
+		"/home/brodriguez/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/home/brodriguez/.config/sublime-text-3/Packages/PHP Companion/PHP Companion.sublime-settings",
+		"/home/brodriguez/public_html/MySiteRails/db/migrate/20160603151350_create_messages.rb",
+		"/home/brodriguez/.config/sublime-text-3/Packages/Glue/Glue.sublime-settings",
+		"/home/brodriguez/.config/sublime-text-3/Packages/User/Glue.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"function ezText",
+			"funtion ezText",
+			"ezText",
+			";\n",
+			"formularioDeprecated.php",
+			"><%=",
+			"div",
+			"<div class=\"header\">\n",
+			"        { \"keys\": [\"ctrl+alt+f\"], \"command\": \"reindent\" , \"args\": {\"single_line\": false}}\n",
+			"alt",
+			"%>\n",
+			"restart",
+			"Removing",
+			"dependencies",
+			"Pathname",
+			"#!/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"index.php"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "sindicacion/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 432,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								408,
+								408
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							[
+							],
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"function_name_status_row": 11,
+							"is_xml": false,
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sindicacion/rss.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1154,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 2356,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										859,
+										863
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								749,
+								749
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							[
+							],
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"function_name_status_row": 18,
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sindicacion/prueba.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 629,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								629,
+								629
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"function_name_status_row": 21,
+							"is_xml": true,
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 215.0
+	},
+	"pinned_build_system": "",
+	"project": "php-poo.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				".sublime",
+				"vendor/bundle/ruby/2.1.0/gems/sqlite3-1.3.11/ext/sqlite3/.RUBYARCHDIR.-.sqlite3.time"
+			],
+			[
+				"",
+				"untitled"
+			],
+			[
+				".js",
+				"js/validate.js"
+			],
+			[
+				".css",
+				"css/style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"17":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"18":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"19":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"20":
+				{
+					"group": 0,
+					"index": 3
+				},
+				"21":
+				{
+					"group": 0,
+					"index": 4
+				},
+				"22":
+				{
+					"group": 0,
+					"index": 5
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						2,
+						1
+					],
+					[
+						0,
+						1,
+						1,
+						2
+					],
+					[
+						1,
+						1,
+						2,
+						2
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.916824196597,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					0.7,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 222.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
