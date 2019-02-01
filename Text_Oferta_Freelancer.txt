@@ -1,0 +1,3 @@
+Oferta Freelancer
+
+La oferta incluye la revisión y correción del bug en Wordpress. Se solicitará acceso al panel administrativo de WP y al servidor por SSH. Disponibilidad inmediata.
